@@ -16,6 +16,7 @@ namespace HUX.Buttons
         private bool pressed = false;
         private bool goInto = true;
         private TakePicture takePic;
+        private TakePictureAtCurrentPosition takePicCur;
 
         void Start()
         {
@@ -25,6 +26,7 @@ namespace HUX.Buttons
             button.OnButtonReleased += OnButtonReleased;
 
             takePic = GameObject.Find("HoloLens").transform.FindChild("RGBCamera").GetComponent<TakePicture>();
+            takePicCur = GameObject.Find("HoloLens").transform.FindChild("RGBCamera").GetComponent<TakePictureAtCurrentPosition>();
         }
 
         void StateChange(Button.ButtonStateEnum newState)
@@ -43,18 +45,21 @@ namespace HUX.Buttons
 
         void OnButtonPressed(GameObject go)
         {
+           // takePicCur.testActivation();
             // PlayClip(Profile.ButtonPressed, Profile.ButtonPressedVolume);
             if (goInto)
             {
                 if (!pressed)
                 {
                     Debug.Log("start");
-                    takePic.activatePhotoCaptureMode();
+                    //takePic.activatePhotoCaptureMode();
+                    takePicCur.activatePhotoCaptureMode();
                 }
                 else
                 {
                     Debug.Log("stop");
-                    takePic.deactivatePhotoCaptureMode();
+                    //takePic.deactivatePhotoCaptureMode();
+                    takePicCur.deactivatePhotoCaptureMode();
                 }
                 goInto = false;
                 pressed = !pressed;

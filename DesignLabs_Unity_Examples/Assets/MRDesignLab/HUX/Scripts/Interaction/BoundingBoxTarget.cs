@@ -70,7 +70,7 @@ namespace HUX.Interaction
 
         public void Tapped()
         {
-            Debug.Log("Tap");
+            //Debug.Log("Tap");
             // Return if there isn't a Manipulation Manager
             if (ManipulationManager.Instance == null)
             {
