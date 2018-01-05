@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>981a19a4-fb87-4f20-a6bb-11758a01c715</PackageIdentityName>
     <PackageIdentityPublisher>CN=DefaultCompany</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\Controls Example.exe">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\Controls Example.exe">
       <PackagePath>entrypoint\Controls Example.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
@@ -349,7 +349,7 @@
     <AppxPackagedFile Include="C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x86\Debug\UnityEngineProxy.dll">
       <PackagePath>UnityEngineProxy.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Unprocessed\WinRTLegacy.dll">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Unprocessed\WinRTLegacy.dll">
       <PackagePath>WinRTLegacy.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x86\Debug\UnityPlayer.dll">
@@ -373,85 +373,85 @@
     <AppxPackagedFile Include="C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x86\Debug\WinRTBridge.winmd">
       <PackagePath>WinRTBridge.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Resource.res">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Resource.res">
       <PackagePath>Resource.res</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\MicStreamSelector.dll">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\MicStreamSelector.dll">
       <PackagePath>MicStreamSelector.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\SharingClient.dll">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\SharingClient.dll">
       <PackagePath>SharingClient.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\SpatialUnderstanding.dll">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\SpatialUnderstanding.dll">
       <PackagePath>SpatialUnderstanding.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\PlaneFinding.dll">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\PlaneFinding.dll">
       <PackagePath>PlaneFinding.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Data\globalgamemanagers">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Data\level0">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\level0">
       <PackagePath>Data\level0</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Data\Resources\unity default resources">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Data\Resources\unity_builtin_extra">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Data\globalgamemanagers.assets">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Data\resources.assets">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Data\sharedassets0.assets">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Data\managedAssemblies.txt">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Data\nativePlugins.txt">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Data\StreamingAssets\build_info.txt">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\StreamingAssets\build_info.txt">
       <PackagePath>Data\StreamingAssets\build_info.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Data\resources.assets.resS">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Data\sharedassets0.assets.resS">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Data\sharedassets0.resource">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\sharedassets0.resource">
       <PackagePath>Data\sharedassets0.resource</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.15063.0\\redist\Debug\x86\ucrtbased.dll">
@@ -460,35 +460,35 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\UnityEngine.dll">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\nunit.framework.dll">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\nunit.framework.dll">
       <PackagePath>nunit.framework.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\UnityEngine.UI.dll">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\UnityEngine.UI.dll">
       <PackagePath>UnityEngine.UI.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\UnityEngine.HoloLens.dll">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\UnityEngine.HoloLens.dll">
       <PackagePath>UnityEngine.HoloLens.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\UnityEngine.Networking.dll">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\UnityEngine.Networking.dll">
       <PackagePath>UnityEngine.Networking.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\UnityEngine.VR.dll">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\UnityEngine.VR.dll">
       <PackagePath>UnityEngine.VR.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Assembly-CSharp.dll">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Assembly-CSharp.dll">
       <PackagePath>Assembly-CSharp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Assembly-CSharp-firstpass.dll">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Assembly-CSharp-firstpass.dll">
       <PackagePath>Assembly-CSharp-firstpass.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\Core\Controls Example.exe">
+    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\Core\Controls Example.exe">
       <PackagePath>Controls Example.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

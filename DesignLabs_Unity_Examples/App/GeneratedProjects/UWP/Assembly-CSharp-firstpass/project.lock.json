@@ -15490,10 +15490,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jan Bender\\Downloads\\MRDesignLabs_Unity\\DesignLabs_Unity_Examples\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
+      "projectUniqueName": "C:\\Users\\Jan Bender\\Documents\\Masterprojekt\\MasterprojektV2\\DesignLabs_Unity_Examples\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
       "projectName": "Assembly-CSharp-firstpass",
-      "projectPath": "C:\\Users\\Jan Bender\\Downloads\\MRDesignLabs_Unity\\DesignLabs_Unity_Examples\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
-      "projectJsonPath": "C:\\Users\\Jan Bender\\Downloads\\MRDesignLabs_Unity\\DesignLabs_Unity_Examples\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\project.json",
+      "projectPath": "C:\\Users\\Jan Bender\\Documents\\Masterprojekt\\MasterprojektV2\\DesignLabs_Unity_Examples\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj",
+      "projectJsonPath": "C:\\Users\\Jan Bender\\Documents\\Masterprojekt\\MasterprojektV2\\DesignLabs_Unity_Examples\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {

@@ -5,10 +5,10 @@
 # Write a line equal to 'overwrite-all' (without quotes) to overwrite everything (preserved accross builds)
 # Write a line equal to 'keep-all' (without quotes) to keep files regardless their modification (preserved accross builds)
 # Default behavior is to never overwrite files
-Controls Example.sln: modified
+Controls Example.sln: FBAD145174EECBBD677CAC498A29A6A3
 Controls Example\App.cs: 521E3747367CC23C723683FB824A04C0
-Controls Example\Controls Example.csproj: F9767BFCC2DD6E705F60AB3D316E5A93
-Controls Example\Controls Example.csproj.user: modified
+Controls Example\Controls Example.csproj: 8E8B7AF100944BE4DF60B49733A7B812
+Controls Example\Controls Example.csproj.user: BEFB8AC4886C4CFDD3C68445D6F19B04
 Controls Example\Package.appxmanifest: 89865646307C99BFB99FA0068D280DF8
 Controls Example\project.json: 1D02BC64BAC0D041019673A1C4C51737
 Controls Example\Assets\SplashScreen.scale-200.png: 60618416282ED104FD1473935716045D

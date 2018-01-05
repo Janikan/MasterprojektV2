@@ -39,6 +39,8 @@ public class TakePictureAtCurrentPosition : MonoBehaviour
         m_CameraParameters = new CameraParameters(WebCamMode.PhotoMode);
         m_CameraParameters.cameraResolutionWidth = selectedResolution.width;
         m_CameraParameters.cameraResolutionHeight = selectedResolution.height;
+        //default mode 1280x720
+       // Debug.Log(selectedResolution.width + " x " + selectedResolution.height);
         m_CameraParameters.hologramOpacity = 0.0f;
         m_CameraParameters.pixelFormat = CapturePixelFormat.BGRA32;
 
@@ -94,9 +96,21 @@ public class TakePictureAtCurrentPosition : MonoBehaviour
             if (m_Canvas == null)
             {
                 m_Canvas = GameObject.CreatePrimitive(PrimitiveType.Quad);
+                // float scale = (Screen.height / 2.0f) / Camera.main.orthographicSize;
+                // float scaleX = m_Texture.width / scale;
+                // float scaleY = m_Texture.height / scale;
+                m_Canvas.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
                 m_Canvas.name = "PhotoCaptureCanvas";
                 m_CanvasRenderer = m_Canvas.GetComponent<Renderer>() as Renderer;
-                m_CanvasRenderer.material = new Material(Shader.Find("AR/HolographicImageBlend"));
+                try
+                {
+                    //in debug mode:System.NullReferenceException
+                    m_CanvasRenderer.material = new Material(Shader.Find("AR/HolographicImageBlend"));
+                }
+                catch(System.NullReferenceException)
+                {
+                    Debug.Log("Problem with Shader when Debugging");
+                }
             }
 
             Matrix4x4 cameraToWorldMatrix;
@@ -131,6 +145,13 @@ public class TakePictureAtCurrentPosition : MonoBehaviour
             m_Texture.wrapMode = TextureWrapMode.Clamp;
 
             m_CanvasRenderer.sharedMaterial.SetTexture("_MainTex", m_Texture);
+
+            Matrix4x4 cameraToWorldMatrix;
+            photoCaptureFrame.TryGetCameraToWorldMatrix(out cameraToWorldMatrix);
+            Vector3 position = cameraToWorldMatrix.GetColumn(3) - cameraToWorldMatrix.GetColumn(2);
+            Quaternion rotation = Quaternion.LookRotation(-cameraToWorldMatrix.GetColumn(2), cameraToWorldMatrix.GetColumn(1));
+            m_Canvas.transform.position = position;
+            m_Canvas.transform.rotation = rotation;
         }
 
         Debug.Log("Took picture!");

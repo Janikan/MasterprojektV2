@@ -15544,16 +15544,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jan Bender\\Downloads\\MRDesignLabs_Unity\\DesignLabs_Unity_Examples\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+      "projectUniqueName": "C:\\Users\\Jan Bender\\Documents\\Masterprojekt\\MasterprojektV2\\DesignLabs_Unity_Examples\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
       "projectName": "Assembly-CSharp",
-      "projectPath": "C:\\Users\\Jan Bender\\Downloads\\MRDesignLabs_Unity\\DesignLabs_Unity_Examples\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
-      "projectJsonPath": "C:\\Users\\Jan Bender\\Downloads\\MRDesignLabs_Unity\\DesignLabs_Unity_Examples\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
+      "projectPath": "C:\\Users\\Jan Bender\\Documents\\Masterprojekt\\MasterprojektV2\\DesignLabs_Unity_Examples\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+      "projectJsonPath": "C:\\Users\\Jan Bender\\Documents\\Masterprojekt\\MasterprojektV2\\DesignLabs_Unity_Examples\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "C:\\Users\\Jan Bender\\Downloads\\MRDesignLabs_Unity\\DesignLabs_Unity_Examples\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj": {
-              "projectPath": "C:\\Users\\Jan Bender\\Downloads\\MRDesignLabs_Unity\\DesignLabs_Unity_Examples\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj"
+            "C:\\Users\\Jan Bender\\Documents\\Masterprojekt\\MasterprojektV2\\DesignLabs_Unity_Examples\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj": {
+              "projectPath": "C:\\Users\\Jan Bender\\Documents\\Masterprojekt\\MasterprojektV2\\DesignLabs_Unity_Examples\\App\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj"
             }
           }
         }

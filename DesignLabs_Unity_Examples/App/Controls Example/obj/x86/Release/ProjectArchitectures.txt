@@ -1,4 +1,0 @@
-C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\Controls Example\Controls Example.csproj;x86
-C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
-C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
-C:\Users\Jan Bender\Downloads\MRDesignLabs_Unity\DesignLabs_Unity_Examples\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
