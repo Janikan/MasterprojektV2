@@ -11,7 +11,7 @@ public class TakePictureAtCurrentPosition : MonoBehaviour
     Renderer m_CanvasRenderer = null;
     PhotoCapture m_PhotoCaptureObj;
     CameraParameters m_CameraParameters;
-    bool m_CapturingPhoto = false;
+    //bool m_CapturingPhoto = false;
     Texture2D m_Texture = null;
     bool m_updateTexture = false;
 
@@ -24,10 +24,10 @@ public class TakePictureAtCurrentPosition : MonoBehaviour
     {
         m_GestureRecognizer = new GestureRecognizer();
         m_GestureRecognizer.SetRecognizableGestures(GestureSettings.Tap);
-        m_GestureRecognizer.TappedEvent += OnTappedEvent;
+       // m_GestureRecognizer.TappedEvent += OnTappedEvent;
         m_GestureRecognizer.StartCapturingGestures();
 
-        m_CapturingPhoto = false;
+      //  m_CapturingPhoto = false;
     }
 
     void Initialize()
@@ -63,9 +63,9 @@ public class TakePictureAtCurrentPosition : MonoBehaviour
         Debug.Log("Air Tap to take a picture.");
     }
 
-   public void OnTappedEvent(InteractionSourceKind source, int tapCount, Ray headRay)
+/*public void OnTappedEvent(InteractionSourceKind source, int tapCount, Ray headRay)
     {
-        Debug.Log("test2");
+        //Debug.Log("test2");
         if (m_CapturingPhoto)
         {
             return;
@@ -74,7 +74,7 @@ public class TakePictureAtCurrentPosition : MonoBehaviour
         m_CapturingPhoto = true;
         Debug.Log("Taking picture...");
         m_PhotoCaptureObj.TakePhotoAsync(OnPhotoCaptured);
-    }
+    }*/
 
     public void testActivation()
     {
@@ -155,7 +155,7 @@ public class TakePictureAtCurrentPosition : MonoBehaviour
         }
 
         Debug.Log("Took picture!");
-        m_CapturingPhoto = false;
+        //m_CapturingPhoto = false;
     }
 
     //start automated capturing, called in StartCaptureMode.cs

@@ -114,7 +114,6 @@ C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Exa
 C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\BridgeInterface.winmd
 C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\nunit.framework.dll
 C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\UnityEngine.dll
-C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\UnityEngine.HoloLens.dll
 C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\UnityEngine.Networking.dll
 C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\UnityEngine.UI.dll
 C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\UnityEngine.VR.dll
@@ -206,3 +205,4 @@ C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Exa
 C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\UnityEngine.HoloLens.dll

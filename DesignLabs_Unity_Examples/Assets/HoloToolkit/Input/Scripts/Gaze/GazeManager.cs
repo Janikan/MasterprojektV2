@@ -313,9 +313,9 @@ namespace HoloToolkit.Unity.InputModule
                 }
             }
 
-             return minHit ?? new RaycastResult();
+            return minHit ?? new RaycastResult();
         }
-        
+
         /// <summary>
         /// Look through the layerMaskList and find the index in that list for which the supplied layer is part of
         /// </summary>

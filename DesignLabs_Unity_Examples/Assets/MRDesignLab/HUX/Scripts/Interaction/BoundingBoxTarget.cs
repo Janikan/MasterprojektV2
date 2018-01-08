@@ -115,7 +115,7 @@ namespace HUX.Interaction
                 // Set to accept input immediately
                 boundingBox.AcceptInput = true;
             }
-            GetComponent<TakePicture>().startCapturing();
+            //GetComponent<TakePicture>().startCapturing();
         }
 
         private void OnDestroy ()
