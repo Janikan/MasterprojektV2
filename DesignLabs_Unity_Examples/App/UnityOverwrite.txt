@@ -7,7 +7,7 @@
 # Default behavior is to never overwrite files
 Controls Example.sln: modified
 Controls Example\App.cs: 521E3747367CC23C723683FB824A04C0
-Controls Example\Controls Example.csproj: 62D34668D2C4B838C3014C4C17395E8E
+Controls Example\Controls Example.csproj: 449E8CEFF723E070BCC0A1E18D0E9F6D
 Controls Example\Controls Example.csproj.user: modified
 Controls Example\Package.appxmanifest: 79BA512D47EF41B6FAD4E325A55EBACB
 Controls Example\project.json: 1D02BC64BAC0D041019673A1C4C51737
