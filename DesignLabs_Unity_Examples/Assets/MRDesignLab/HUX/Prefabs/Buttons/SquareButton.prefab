@@ -417,7 +417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Profile: {fileID: 11400000, guid: a9c1795616f7f6d4a9e866e757eb2b46, type: 2}
-  DisableIcon: 0
+  DisableIcon: 1
   OverrideIcon: 0
   iconOverride: {fileID: 0}
   iconName: E700

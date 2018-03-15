@@ -74,16 +74,19 @@ namespace MRDL.ToolTips
             lineProp.objectReferenceValue = HUXEditorUtils.DropDownComponentField<Line>("Line", lineProp.objectReferenceValue as Line, tt.transform, true);
             EditorGUILayout.PropertyField(attachPointProp);
 
-            HoloToolkit.Unity.Billboard bb = tt.Pivot.GetComponent<HoloToolkit.Unity.Billboard>();
-            if (bb == null)
-            {
-                if (GUILayout.Button ("Add default billboard to content?"))
-                {
-                    bb = tt.Pivot.AddComponent<HoloToolkit.Unity.Billboard>();
-                    bb.PivotAxis = HoloToolkit.Unity.PivotAxis.Y;
-                }
-            }
+            //not supported by HoloToolkit from academy
 
+            /*
+                        HoloToolkit.Unity.Billboard bb = tt.Pivot.GetComponent<HoloToolkit.Unity.Billboard>();
+                        if (bb == null)
+                        {
+                            if (GUILayout.Button ("Add default billboard to content?"))
+                            {
+                                bb = tt.Pivot.AddComponent<HoloToolkit.Unity.Billboard>();
+                                bb.PivotAxis = HoloToolkit.Unity.PivotAxis.Y;
+                            }
+                        }
+                        */
             if (lineProp.objectReferenceValue == null)
             {
                 Line line = tt.gameObject.GetComponent<Line>();

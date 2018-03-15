@@ -169,7 +169,7 @@ namespace HUX.Interaction
         public void Reset() {
             State = AppBarStateEnum.Default;
             if (boundingBox != null) {
-                boundingBox.AcceptInput = false;
+               // boundingBox.AcceptInput = false;
             }
             FollowBoundingBox(false);
             lastTimeTapped = Time.time + coolDownTime;
@@ -346,14 +346,14 @@ namespace HUX.Interaction
                 case AppBarStateEnum.Default:
                 default:
                     targetBarSize = new Vector3 (numDefaultButtons, 1f, 1f);
-                    if (boundingBox != null)
-                        boundingBox.AcceptInput = false;
+                   // if (boundingBox != null)
+                     //   boundingBox.AcceptInput = false;
                     break;
 
                 case AppBarStateEnum.Hidden:
                     targetBarSize = new Vector3(numHiddenButtons, 1f, 1f);
-                    if (boundingBox != null)
-                        boundingBox.AcceptInput = false;
+                   // if (boundingBox != null)
+                    //    boundingBox.AcceptInput = false;
                     break;
 
                 case AppBarStateEnum.Manipulation:

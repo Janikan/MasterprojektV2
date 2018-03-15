@@ -4,8 +4,8 @@
 //
 using System.Collections;
 using System.Collections.Generic;
-using HoloToolkit.Unity;
-using HoloToolkit.Unity.SpatialMapping;
+//using HoloToolkit.Unity;
+using Academy.HoloToolkit.Unity;
 using UnityEngine;
 
 public class SpatialRenderingConfiguration : Singleton<SpatialRenderingConfiguration>
@@ -50,7 +50,9 @@ public class SpatialRenderingConfiguration : Singleton<SpatialRenderingConfigura
     private Material m_SpatialUnderstandingDefaultMaterial = null;
 
     private SpatialMappingManager m_SpatialMappingManager = null;
-    private SpatialUnderstandingCustomMesh m_SpatialUnderstandingCustomMesh = null;
+
+    //not supported by HoloToolkit from academy
+    //private SpatialUnderstandingCustomMesh m_SpatialUnderstandingCustomMesh = null;
 
     public RenderingState CurrentRenderingState
     {
@@ -67,14 +69,14 @@ public class SpatialRenderingConfiguration : Singleton<SpatialRenderingConfigura
                 case RenderingState.Occlusion:
                 {
                     m_SpatialMappingManager.SurfaceMaterial = m_OcclusionMaterial;
-                    m_SpatialUnderstandingCustomMesh.MeshMaterial = m_OcclusionMaterial;
+                   // m_SpatialUnderstandingCustomMesh.MeshMaterial = m_OcclusionMaterial;
                     break;
                 }
 
                 case RenderingState.DefaultMaterial:
                 {
                     m_SpatialMappingManager.SurfaceMaterial = m_SpatialMappingDefaultMaterial;
-                    m_SpatialUnderstandingCustomMesh.MeshMaterial = m_SpatialUnderstandingDefaultMaterial;
+                   // m_SpatialUnderstandingCustomMesh.MeshMaterial = m_SpatialUnderstandingDefaultMaterial;
                     break;
                 }
 
@@ -82,8 +84,8 @@ public class SpatialRenderingConfiguration : Singleton<SpatialRenderingConfigura
                 {
                     m_SpatialMappingManager.SurfaceMaterial = null;
                     m_SpatialMappingManager.DrawVisualMeshes = false;
-                    m_SpatialUnderstandingCustomMesh.MeshMaterial = null;
-                    m_SpatialUnderstandingCustomMesh.DrawProcessedMesh = false;
+                   // m_SpatialUnderstandingCustomMesh.MeshMaterial = null;
+                   // m_SpatialUnderstandingCustomMesh.DrawProcessedMesh = false;
                     break;
                 }
             }
@@ -93,17 +95,17 @@ public class SpatialRenderingConfiguration : Singleton<SpatialRenderingConfigura
     void Start()
     {
         m_SpatialMappingManager = SpatialMappingManager.Instance;
-        m_SpatialUnderstandingCustomMesh = SpatialUnderstanding.Instance.UnderstandingCustomMesh;
+      //  m_SpatialUnderstandingCustomMesh = SpatialUnderstanding.Instance.UnderstandingCustomMesh;
 
         m_SpatialMappingDefaultMaterial = m_SpatialMappingManager.SurfaceMaterial;
-        m_SpatialUnderstandingDefaultMaterial = m_SpatialUnderstandingCustomMesh.MeshMaterial;
+      //  m_SpatialUnderstandingDefaultMaterial = m_SpatialUnderstandingCustomMesh.MeshMaterial;
 
         CurrentRenderingState = m_CurrentRenderingState;
     }
 
     void OnValidate()
     {
-        if (Application.isPlaying && m_SpatialMappingManager && m_SpatialUnderstandingCustomMesh)
+        if (Application.isPlaying && m_SpatialMappingManager )//&& m_SpatialUnderstandingCustomMesh)
         {
             CurrentRenderingState = m_CurrentRenderingState;
         }

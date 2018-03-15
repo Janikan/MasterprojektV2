@@ -5,6 +5,9 @@
 using HUX.Buttons;
 using UnityEngine;
 
+using UnityEngine.VR.WSA.Input;
+
+
 namespace HUX.Interaction
 {
     /// <summary>
@@ -50,28 +53,60 @@ namespace HUX.Interaction
         /// </summary>
         private AppBar toolbar;
 
+        private Button menuButton;
+
+        private InteractionManager interactionManager;
+
         private void Start()
         {
             Button button = GetComponent<Button>();
             button.FilterTag = TagOnDeselected;
+
+            menuButton = GameObject.Find("OpenMenuButton").GetComponent<Button>();
+            if (menuButton != null)
+                menuButton.gameObject.SetActive(false);
+
+            //get interactionManager
+            interactionManager = GameObject.Find("HoloLens").transform.FindChild("InteractionManager").GetComponent<InteractionManager>();
+
         }
 
-        public void OnTargetSelected()
-        {
-            Debug.Log("Selecting target" + name);
-            GetComponent<Button>().FilterTag = TagOnSelected;
-        }
+
 
         public void OnTargetDeselected ()
         {
             Debug.Log("Deselecting target " + name);
             GetComponent<Button>().FilterTag = TagOnDeselected;
-        }
 
+            if(menuButton != null)
+            {
+                menuButton.gameObject.SetActive(false);
+            }
+
+            //Hack for having those two objects nir visible anymore when user taps in free space
+            //occure back in when user taps on object (or other object with bodung box) again
+            GameObject bBoxShell = GameObject.Find("BoundingBoxShell(Clone)");
+            if(bBoxShell != null)
+            {
+                bBoxShell.SetActive(false);
+            }
+            GameObject appBar = GameObject.Find("AppBar(Clone)");
+            if(appBar != null)
+            {
+                appBar.SetActive(false);
+            }
+        }
+        
         public void Tapped()
         {
-            //Debug.Log("Tap");
+            Debug.Log("Tap");
             // Return if there isn't a Manipulation Manager
+
+            if(interactionManager != null)
+            {
+                interactionManager.setExistingBoundingBoxTarget(true);
+            }
+
             if (ManipulationManager.Instance == null)
             {
                 Debug.LogError("No manipulation manager for " + name);
@@ -90,6 +125,21 @@ namespace HUX.Interaction
                 toolbar = ManipulationManager.Instance.ActiveAppBar;
             }
 
+            // Try to find menuButton
+            if (menuButton != null)
+            {
+                menuButton.gameObject.SetActive(true);
+
+                //for positioning the menu button beside the prodct object and facing the camera; every time it appears again
+                GameObject cam = GameObject.Find("HoloLens");
+                GameObject product = GameObject.Find("Product");
+                Vector3 camRightVector = new Vector3(cam.transform.position.x, 0, 0).normalized;
+                menuButton.transform.position = product.transform.position;
+                menuButton.gameObject.transform.Translate(camRightVector * 0.2f);
+
+            }
+
+
             // If we've already got a bounding box and it's pointing to us, do nothing
             if (boundingBox != null && boundingBox.gameObject.activeSelf && boundingBox.Target == this.gameObject)
                 return;
@@ -107,13 +157,14 @@ namespace HUX.Interaction
                 toolbar.BoundingBox = boundingBox;
                 toolbar.Reset();
                 toolbar.gameObject.SetActive(true);
+                toolbar.HoverOffsetYScale = -0.25f;
 
             } else if (toolbar != null)
             {
                 // Set its bounding box to null to hide it
                 toolbar.BoundingBox = null;
                 // Set to accept input immediately
-                boundingBox.AcceptInput = true;
+                //boundingBox.AcceptInput = true;
             }
             //GetComponent<TakePicture>().startCapturing();
         }

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
-using HoloToolkit.Unity.SpatialMapping;
+using Academy.HoloToolkit.Unity;
 
 /// <summary>
 /// Enumeration containing the surfaces on which a GameObject
@@ -95,6 +95,7 @@ public class Placeable : MonoBehaviour
     /// </summary>
     private void Awake()
     {
+        //Debug.Log("placement awakes at "+gameObject.name);
         targetPosition = gameObject.transform.position;
 
         // Get the object's collider.
@@ -126,6 +127,7 @@ public class Placeable : MonoBehaviour
     public void OnSelect()
     {
         /* TODO: 4.a CODE ALONG 4.a */
+        Debug.Log("Something selected");
 
         if (!IsPlacing)
         {
@@ -143,7 +145,7 @@ public class Placeable : MonoBehaviour
     private void Update()
     {
         /* TODO: 4.a CODE ALONG 4.a */
-
+       // Debug.Log("placing update");
         if (IsPlacing)
         {
             // Move the object.
@@ -312,6 +314,7 @@ public class Placeable : MonoBehaviour
     /// </summary>
     public void OnPlacementStart()
     {
+        Debug.Log("Placement start");
         // If we are managing the collider, enable it. 
         if (managingBoxCollider)
         {
@@ -326,7 +329,7 @@ public class Placeable : MonoBehaviour
 
         // Tell the gesture manager that it is to assume
         // all input is to be given to this object.
-       // GestureManager.Instance.OverrideFocusedObject = gameObject;
+        GestureManager.Instance.OverrideFocusedObject = gameObject;
 
         // Enter placement mode.
         IsPlacing = true;
@@ -342,6 +345,7 @@ public class Placeable : MonoBehaviour
     /// </remarks>
     public void OnPlacementStop()
     {
+        Debug.Log("Placement stop");
         // ValidatePlacement requires a normal as an out parameter.
         Vector3 position;
         Vector3 surfaceNormal;
@@ -366,7 +370,7 @@ public class Placeable : MonoBehaviour
 
         // Tell the gesture manager that it is to resume
         // its normal behavior.
-        //GestureManager.Instance.OverrideFocusedObject = null;
+        GestureManager.Instance.OverrideFocusedObject = null;
 
         // Exit placement mode.
         IsPlacing = false;
@@ -381,6 +385,7 @@ public class Placeable : MonoBehaviour
     /// </remarks>
     private void Move()
     {
+        Debug.Log("move");
         Vector3 moveTo = gameObject.transform.position;
         Vector3 surfaceNormal = Vector3.zero;
         RaycastHit hitInfo;
@@ -393,6 +398,7 @@ public class Placeable : MonoBehaviour
 
         if (hit)
         {
+            //Debug.Log("hit");
             float offsetDistance = hoverDistance;
 
             // Place the object a small distance away from the surface while keeping 
@@ -507,15 +513,20 @@ public class Placeable : MonoBehaviour
                             Vector3 surfaceNormal,
                             bool canBePlaced)
     {
-        // Rotate the shadow so that it is displayed on the correct surface and matches the object.
+        // Rotate and scale the shadow so that it is displayed on the correct surface and matches the object.
         float rotationX = 0.0f;
+
         if (PlacementSurface == PlacementSurfaces.Horizontal)
         {
             rotationX = 90.0f;
+            shadowAsset.transform.localScale = new Vector3(boxCollider.size.x, boxCollider.size.z, 1);
         }
-        Quaternion rotation = Quaternion.Euler(rotationX, gameObject.transform.rotation.eulerAngles.y, 0);
+        else
+        {
+            shadowAsset.transform.localScale = boxCollider.size;
+        }
 
-        shadowAsset.transform.localScale = boxCollider.size;
+        Quaternion rotation = Quaternion.Euler(rotationX, gameObject.transform.rotation.eulerAngles.y, 0);
         shadowAsset.transform.rotation = rotation;
 
         // Apply the appropriate material.

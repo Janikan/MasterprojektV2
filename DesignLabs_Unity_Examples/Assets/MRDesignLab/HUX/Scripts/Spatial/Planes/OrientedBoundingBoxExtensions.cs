@@ -2,7 +2,7 @@
 // Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License. See LICENSE in the project root for license information.
 //
-using HoloToolkit.Unity.SpatialMapping;
+using Academy.HoloToolkit.Unity;
 using UnityEngine;
 
 public static class OrientedBoundingBoxExtensions

@@ -7,7 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using HUX.Utility;
-using HoloToolkit.Unity.SpatialMapping;
+using Academy.HoloToolkit.Unity;
 
 #if UNITY_WSA
 using UnityEngine.VR.WSA;
@@ -27,7 +27,7 @@ namespace HUX.Spatial
     /// <summary>
     /// SurfaceMeshesToPlanes will find and create planes based on the meshes returned by the SpatialMappingManager's Observer.
     /// </summary>
-    public class SurfacePlaneManager : HoloToolkit.Unity.Singleton<SurfacePlaneManager>
+    public class SurfacePlaneManager : Academy.HoloToolkit.Unity.Singleton<SurfacePlaneManager>
     {
 
 #region Editor Variables
@@ -513,7 +513,7 @@ namespace HUX.Spatial
         /// Iterator block, analyzes surface meshes to find planes and create new 3D cubes to represent each plane.
         /// </summary>
         /// <returns>Yield result.</returns>
-        private IEnumerator MakePlanesRoutine(List<HoloToolkit.Unity.SpatialMapping.PlaneFinding.MeshData> meshData)
+        private IEnumerator MakePlanesRoutine(List<Academy.HoloToolkit.Unity.PlaneFinding.MeshData> meshData)
         {
 			MakingPlanes = true;
 #if UNITY_WSA && !UNITY_EDITOR

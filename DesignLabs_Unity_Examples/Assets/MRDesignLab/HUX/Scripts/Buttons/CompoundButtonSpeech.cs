@@ -38,7 +38,9 @@ namespace HUX.Buttons
         public KeywordConfidenceLevel ConfidenceLevel = KeywordConfidenceLevel.Unknown;
 
         /// <summary>
-        /// Variable to keep track of previous button text incase the button text changes after registration.
+        /// Variable to keep track of previous button text incase the button text 
+        /// 
+        /// s after registration.
         /// </summary>
         private string prevButtonText;
 

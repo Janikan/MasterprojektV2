@@ -22,7 +22,8 @@ namespace HUX.Buttons
         private Animator _animator;
 
         /// <summary>
-        /// On state change swap out the active mesh based on the state
+        /// On state 
+        /// swap out the active mesh based on the state
         /// </summary>
         public override void OnStateChange(ButtonStateEnum newState)
         {

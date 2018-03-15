@@ -190,7 +190,7 @@ namespace HUX.Interaction
             }
             else
             {
-                Debug.Log("Switching current operation " + manipulate.CurrentOperation);
+                //Debug.Log("Switching current operation " + manipulate.CurrentOperation);
                 switch (manipulate.CurrentOperation)
                 {
                     default:

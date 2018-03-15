@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-15T16:53:51.938</Modified>
+      <Modified>2018-03-15T13:32:28.742</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\Controls Example.exe">
       <PackagePath>entrypoint\Controls Example.exe</PackagePath>
-      <Modified>2018-01-15T16:53:32.284</Modified>
+      <Modified>2018-03-15T13:32:16.312</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -501,7 +501,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Resource.res">
       <PackagePath>Resource.res</PackagePath>
-      <Modified>2018-01-15T16:48:51.737</Modified>
+      <Modified>2018-03-15T13:28:42.610</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
@@ -537,29 +537,17 @@
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-03-22T00:28:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\MicStreamSelector.dll">
-      <PackagePath>MicStreamSelector.dll</PackagePath>
-      <Modified>2017-11-27T16:06:58.178</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\SharingClient.dll">
-      <PackagePath>SharingClient.dll</PackagePath>
-      <Modified>2017-11-27T16:06:58.429</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\SpatialUnderstanding.dll">
-      <PackagePath>SpatialUnderstanding.dll</PackagePath>
-      <Modified>2017-11-27T16:06:58.918</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\PlaneFinding.dll">
       <PackagePath>PlaneFinding.dll</PackagePath>
-      <Modified>2017-11-27T16:06:58.761</Modified>
+      <Modified>2016-05-05T20:08:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2018-01-15T16:48:16.659</Modified>
+      <Modified>2018-03-15T13:28:11.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2018-01-15T16:48:14.847</Modified>
+      <Modified>2018-03-15T13:28:09.389</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
@@ -567,43 +555,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2018-01-15T16:48:26.749</Modified>
+      <Modified>2018-03-15T13:28:15.018</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2018-01-15T16:48:16.897</Modified>
+      <Modified>2018-03-15T13:28:11.425</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
-      <Modified>2018-01-15T16:48:23.307</Modified>
+      <Modified>2018-03-15T13:28:12.751</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2018-01-15T16:48:25.567</Modified>
+      <Modified>2018-03-15T13:28:14.542</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
-      <Modified>2018-01-15T16:48:51.650</Modified>
+      <Modified>2018-03-15T13:28:42.504</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
-      <Modified>2018-01-15T16:48:51.653</Modified>
+      <Modified>2018-03-15T13:28:42.508</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\StreamingAssets\build_info.txt">
       <PackagePath>Data\StreamingAssets\build_info.txt</PackagePath>
-      <Modified>2018-01-15T16:44:36.416</Modified>
+      <Modified>2018-01-16T10:57:53.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
-      <Modified>2018-01-15T16:48:23.300</Modified>
+      <Modified>2018-03-15T13:28:12.736</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2018-01-15T16:48:25.564</Modified>
+      <Modified>2018-03-15T13:28:14.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Data\sharedassets0.resource">
       <PackagePath>Data\sharedassets0.resource</PackagePath>
-      <Modified>2018-01-15T16:48:25.864</Modified>
+      <Modified>2018-03-15T13:28:14.555</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.15063.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -616,43 +604,43 @@
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-15T16:53:33.237</Modified>
+      <Modified>2018-03-15T13:32:17.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
-      <Modified>2018-01-15T16:53:44.691</Modified>
+      <Modified>2018-03-15T13:32:27.744</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\nunit.framework.dll">
       <PackagePath>nunit.framework.dll</PackagePath>
-      <Modified>2018-01-15T16:53:44.736</Modified>
+      <Modified>2018-03-15T13:32:27.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\UnityEngine.UI.dll">
       <PackagePath>UnityEngine.UI.dll</PackagePath>
-      <Modified>2018-01-15T16:53:44.851</Modified>
+      <Modified>2018-03-15T13:32:28.027</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\UnityEngine.HoloLens.dll">
       <PackagePath>UnityEngine.HoloLens.dll</PackagePath>
-      <Modified>2018-01-15T16:53:44.887</Modified>
+      <Modified>2018-03-15T13:32:28.087</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\UnityEngine.Networking.dll">
       <PackagePath>UnityEngine.Networking.dll</PackagePath>
-      <Modified>2018-01-15T16:53:45.457</Modified>
+      <Modified>2018-03-15T13:32:28.241</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\UnityEngine.VR.dll">
       <PackagePath>UnityEngine.VR.dll</PackagePath>
-      <Modified>2018-01-15T16:53:45.462</Modified>
+      <Modified>2018-03-15T13:32:28.287</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Assembly-CSharp.dll">
       <PackagePath>Assembly-CSharp.dll</PackagePath>
-      <Modified>2018-01-15T16:53:44.171</Modified>
+      <Modified>2018-03-15T13:32:26.568</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Assembly-CSharp-firstpass.dll">
       <PackagePath>Assembly-CSharp-firstpass.dll</PackagePath>
-      <Modified>2018-01-15T16:53:44.181</Modified>
+      <Modified>2018-03-15T13:32:26.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\bin\x86\Debug\Core\Controls Example.exe">
       <PackagePath>Controls Example.exe</PackagePath>
-      <Modified>2018-01-15T16:53:51.923</Modified>
+      <Modified>2018-03-15T13:32:28.736</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

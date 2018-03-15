@@ -153,6 +153,10 @@ MonoBehaviour:
   Interactibles: []
   Targets: []
   bLockFocus: 0
+  TimeoutInterval: 10
+  Timeout: 0
+  HoverOffsetYScale: 0.25
+  HoverOffsetZ: 0
   SquareButtonPrefab: {fileID: 1820333246347296, guid: 7bcb89df8599d00448726407181348bd,
     type: 2}
   UseRemove: 1
@@ -160,7 +164,8 @@ MonoBehaviour:
   UseHide: 1
   DisplayType: 0
   State: 0
-  CustomButtonIconProfile: {fileID: 0}
+  CustomButtonIconProfile: {fileID: 11400000, guid: a05b72560895bf146a8fcc7cdc391aae,
+    type: 2}
   buttons:
   - DefaultPosition: 0
     ManipulationPosition: 0

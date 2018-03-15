@@ -642,8 +642,8 @@ PlayerSettings:
     UNet: 0
   facebookSdkVersion: 7.9.1
   apiCompatibilityLevel: 2
-  cloudProjectId: 15da4901-25e2-40f7-bc02-758e52d02574
-  projectName: Controls Example
-  organizationId: jan-bender
+  cloudProjectId: 
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNewInputSystem: 0

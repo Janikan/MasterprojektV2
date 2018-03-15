@@ -102,6 +102,9 @@ namespace HUX.Interaction
 		/// </summary>
 		float lastHoldReleaseTime;
 
+        //for checking if boundingBoxTarget for manipulating objects exists
+        private bool boundingBoxTargetExists = false;
+
 		// This should be Start instead of Awake right?
 		protected void Start()
         {
@@ -248,6 +251,11 @@ namespace HUX.Interaction
             {
                 focuser.PrimeFocus.SendMessage("OnScroll", null, SendMessageOptions.DontRequireReceiver);
             }
+        }
+
+        public void setExistingBoundingBoxTarget(bool value)
+        {
+            boundingBoxTargetExists = value;
         }
 
 		void OnPressedEvent(AFocuser focuser)
@@ -532,6 +540,13 @@ namespace HUX.Interaction
             {
                 GameObject focusObject = focuser.PrimeFocus;
                 InteractionEventArgs eventArgs = new InteractionEventArgs(focuser, Vector3.zero, true, ray);
+
+                if (focusObject == null && boundingBoxTargetExists)
+                {
+                    Debug.Log("Deactivate BoundingBoxTarget");
+                    GameObject.Find("Product").GetComponent<BoundingBoxTarget>().OnTargetDeselected();
+                    setExistingBoundingBoxTarget(false);
+                }
 
                 if (focusObject != null)
                 {

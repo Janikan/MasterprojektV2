@@ -403,15 +403,6 @@
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\MicStreamSelector.dll">
-      <PackagePath>MicStreamSelector.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\SharingClient.dll">
-      <PackagePath>SharingClient.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\SpatialUnderstanding.dll">
-      <PackagePath>SpatialUnderstanding.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\DesignLabs_Unity_Examples\App\Controls Example\PlaneFinding.dll">
       <PackagePath>PlaneFinding.dll</PackagePath>
     </AppxPackagedFile>

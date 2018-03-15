@@ -2,7 +2,7 @@
 // Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License. See LICENSE in the project root for license information.
 //
-using HoloToolkit.Unity;
+using Academy.HoloToolkit.Unity;
 using UnityEngine;
 
 namespace HUX.Dialogs
@@ -17,7 +17,10 @@ namespace HUX.Dialogs
         public GameObject StartupObject;
         
         private float Distance = 1.0f;
-        private Interpolator interpolator;
+
+        //not supported by HoloToolkit from academy
+        //private Interpolator interpolator;
+
         // The offset from the Camera to the StartupObject when
         // the app starts up. This is used to place the StartupObject
         // in the correct relative position after the Fitbox is
@@ -32,8 +35,8 @@ namespace HUX.Dialogs
                 collectionStartingOffsetFromCamera = StartupObject.transform.localPosition;
                 StartupObject.SetActive(false);
             }
-            interpolator = GetComponent<Interpolator>();
-            interpolator.PositionPerSecond = 2f;
+            //interpolator = GetComponent<Interpolator>();
+            //interpolator.PositionPerSecond = 2f;
         }
 
         private void Tapped()
@@ -74,8 +77,8 @@ namespace HUX.Dialogs
         {
             Transform cameraTransform = Camera.main.transform;
 
-            interpolator.SetTargetPosition(cameraTransform.position + (cameraTransform.forward * Distance));
-            interpolator.SetTargetRotation(Quaternion.LookRotation(-cameraTransform.forward, -cameraTransform.up));
+           // interpolator.SetTargetPosition(cameraTransform.position + (cameraTransform.forward * Distance));
+           // interpolator.SetTargetRotation(Quaternion.LookRotation(-cameraTransform.forward, -cameraTransform.up));
         }
     }
 }

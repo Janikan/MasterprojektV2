@@ -18,10 +18,6 @@ Data\sharedassets0.assets
 Data\sharedassets0.assets.resS
 Data\sharedassets0.resource
 Data\StreamingAssets\build_info.txt
-MicStreamSelector.dll
 PlaneFinding.dll
 Properties\Default.rd.xml
 Resource.res
-SharingClient.dll
-SpatialUnderstanding.dll
-SpatialUnderstanding.pdb
