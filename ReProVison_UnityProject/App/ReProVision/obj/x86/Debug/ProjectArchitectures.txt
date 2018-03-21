@@ -1,0 +1,4 @@
+C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\ReProVison_UnityProject\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\ReProVison_UnityProject\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\ReProVison_UnityProject\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+C:\Users\Jan Bender\Documents\Masterprojekt\MasterprojektV2\ReProVison_UnityProject\App\ReProVision\ReProVision.csproj;x86
